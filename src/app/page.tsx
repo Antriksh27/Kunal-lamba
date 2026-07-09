@@ -20,7 +20,7 @@ export default function Home() {
       <section className="relative w-full h-screen flex flex-col justify-center items-center overflow-hidden bg-onyx text-alabaster">
         {/* Background Image */}
         <div 
-          className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 w-full h-full bg-cover bg-[75%_top] md:bg-center bg-no-repeat"
           style={{ backgroundImage: 'url(/images.jpg)' }}
         />
         
